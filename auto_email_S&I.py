@@ -15,12 +15,12 @@ ws = wb["Form Responses 1"]
 GREEN_COLOR = "FF00FF00"
 ORANGE_COLOR = "FFFF9900"
 
-email_sender = 'aayush.ashok04@gmail.com'
+email_sender = 'Enter your sender's emailhere'
 password = os.environ.get("EMAIL_PASSWORD")
 
 selected_students = []
 
-for row in ws.iter_rows(min_row=0):
+for row in ws.iter_rows(min_row=0):  
     email_cell = row[0]  # column is email
     name_cell = row[1]   # column is name
     
