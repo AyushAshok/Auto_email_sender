@@ -15,7 +15,7 @@ ws = wb["Form Responses 1"]
 GREEN_COLOR = "FF00FF00"
 ORANGE_COLOR = "FFFF9900"
 
-email_sender = 'Enter your sender's emailhere'
+email_sender = 'Enter your sender's email here'
 password = os.environ.get("EMAIL_PASSWORD")
 
 selected_students = []
